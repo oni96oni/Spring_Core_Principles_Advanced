@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class OrderControllerV2 {
 
-    private final OrderServiceV3 orderService;
+    private final OrderServiceV2 orderService;
 
-    public OrderControllerV2(OrderServiceV3 orderServiceV2) {
+    public OrderControllerV2(OrderServiceV2 orderServiceV2) {
         this.orderService = orderServiceV2;
     }
 
